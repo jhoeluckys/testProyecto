@@ -20,10 +20,14 @@ if (is_dir($ruta)) {
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title></title>
+	<title>Mi titulo</title>
 </head>
 <body>
-	<form action="">
+	<div id="cabecera">
+		<h1>Pagina de Inicio</h1>
+		<em>Mi eslogan</em>
+	</div>
+		<form action="">
 		<input type="text" name="expediente">
 		<button>Cargar Imagenes</button>
 	</form>
